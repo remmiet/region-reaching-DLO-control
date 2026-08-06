@@ -3,7 +3,6 @@ While modern robotics has made significant progress in rigid object manipulation
 
 ---
 
-
 ## Simulation
 The simulations below demonstrate how our region-reaching controller overcomes a core limitation of setpoint tracking. While forcing every point to an exact coordinate causes severe instability, introducing regional tolerances allows our controller to stably achieve the desired shape in both 2D and 3D.
 ### 2D Simulation
