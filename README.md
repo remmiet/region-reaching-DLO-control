@@ -14,14 +14,14 @@ To embed a YouTube video directly on the page, use an iframe:
 <table>
   <tr>
     <td width="50%" align="center">
-      <video id="vid1" width="100%" controls>
+      <video width="100%" controls>
         <source src="videos/sim 2d our case 98 - edited.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <p><b>Our Controller</b></p>
     </td>
     <td width="50%" align="center">
-      <video id="vid2" width="100%">
+      <video width="100%" controls>
         <source src="videos/sim 2d tro case 98 - edited.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -29,29 +29,6 @@ To embed a YouTube video directly on the page, use an iframe:
     </td>
   </tr>
 </table>
-
-<script>
-  const v1 = document.getElementById('vid1');
-  const v2 = document.getElementById('vid2');
-
-  v1.addEventListener('play', () => {
-    v2.currentTime = v1.currentTime;
-    v2.play();
-  });
-
-  v1.addEventListener('pause', () => {
-    v2.pause();
-  });
-
-  v1.addEventListener('seeked', () => {
-    v2.currentTime = v1.currentTime;
-  });
-
-  v1.addEventListener('ratechange', () => {
-    v2.playbackRate = v1.playbackRate;
-  });
-</script>
-
 ### 3D Simulation
 <table>
   <tr>
@@ -63,7 +40,7 @@ To embed a YouTube video directly on the page, use an iframe:
       <p><b>Our Controller</b></p>
     </td>
     <td width="50%" align="center">
-      <video id="vid2" width="100%">
+      <video width="100%" controls>
         <source src="videos/sim 3d tro - edited.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -74,24 +51,8 @@ To embed a YouTube video directly on the page, use an iframe:
 
 <script>
   const v1 = document.getElementById('vid1');
-  const v2 = document.getElementById('vid2');
-
-  v1.addEventListener('play', () => {
-    v2.currentTime = v1.currentTime;
-    v2.play();
-  });
-
-  v1.addEventListener('pause', () => {
-    v2.pause();
-  });
-
-  v1.addEventListener('seeked', () => {
-    v2.currentTime = v1.currentTime;
-  });
-
-  v1.addEventListener('ratechange', () => {
-    v2.playbackRate = v1.playbackRate;
-  });
+  v1.defaultPlaybackRate = 3.0;
+  v1.playbackRate = 3.0;
 </script>
 
 
