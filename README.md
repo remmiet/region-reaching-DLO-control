@@ -4,13 +4,13 @@ While modern robotics has made significant progress in rigid object manipulation
 ---
 
 ## Simulation
+In this subsection we can observe the benefit of a regional approach to shape control
 <!--
 To embed a YouTube video directly on the page, use an iframe:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 -->
 ### 2D Simulation
-In this subsection we can observe the benefit of a regional approach to shape control
 <table>
   <tr>
     <td width="50%" align="center">
@@ -52,8 +52,52 @@ In this subsection we can observe the benefit of a regional approach to shape co
   });
 </script>
 
+### 3D Simulation
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <video id="vid1" width="100%" controls>
+        <source src="videos/sim 3d our - edited.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p><b>Our Controller</b></p>
+    </td>
+    <td width="50%" align="center">
+      <video id="vid2" width="100%">
+        <source src="videos/sim 3d tro - edited.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p><b>Setpoint controller</b></p>
+    </td>
+  </tr>
+</table>
+
+<script>
+  const v1 = document.getElementById('vid1');
+  const v2 = document.getElementById('vid2');
+
+  v1.addEventListener('play', () => {
+    v2.currentTime = v1.currentTime;
+    v2.play();
+  });
+
+  v1.addEventListener('pause', () => {
+    v2.pause();
+  });
+
+  v1.addEventListener('seeked', () => {
+    v2.currentTime = v1.currentTime;
+  });
+
+  v1.addEventListener('ratechange', () => {
+    v2.playbackRate = v1.playbackRate;
+  });
+</script>
+
+
 
 ## Real-World Experiments
+An example of our controller being used in real-world experiments. More examples including applications-based experiments will be inlcuded in the future.
 <video width="100%" controls>
   <source src="videos/real-world experiment 1.mp4" type="video/mp4">
   Your browser does not support the video tag.
