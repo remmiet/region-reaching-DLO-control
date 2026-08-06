@@ -4,7 +4,7 @@ While modern robotics has made significant progress in rigid object manipulation
 ---
 
 ## Simulation
-In this subsection we can observe the benefit of a regional approach to shape control
+The simulations below demonstrate how our region-reaching controller overcomes a core limitation of setpoint tracking. While forcing every point to an exact coordinate causes severe instability, introducing regional tolerances allows our controller to stably achieve the desired shape in both 2D and 3D.
 ### 2D Simulation
 <table>
   <tr>
@@ -65,7 +65,7 @@ In this subsection we can observe the benefit of a regional approach to shape co
 
 
 ## Real-World Experiments
-An example of our controller being used in real-world experiments. More examples including applications-based experiments will be inlcuded in the future.
+An example of our controller in real-world experiments. More examples including applications-based experiments will be inlcuded in the future.
 <video width="100%" controls>
   <source src="videos/real-world experiment 1.mp4" type="video/mp4">
   Your browser does not support the video tag.
