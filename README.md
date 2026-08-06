@@ -4,21 +4,34 @@ While modern robotics has made significant progress in rigid object manipulation
 ---
 
 ## Simulation
-This 
-
 <!--
 To embed a YouTube video directly on the page, use an iframe:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 -->
+<table>
+  <tr>
+    <td width="50%">
+      <video width="100%" controls>
+        <source src="videos/sim 2D experiment 1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td width="50%">
+      <video width="100%" controls>
+        <source src="videos/sim 3D experiment 1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+</table>
 
-<video width="100%" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## Real-World Experiments
-
+<video width="100%" controls>
+  <source src="videos/real-world experiment 1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 <!--
 ---
