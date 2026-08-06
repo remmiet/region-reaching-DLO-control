@@ -5,11 +5,6 @@ While modern robotics has made significant progress in rigid object manipulation
 
 ## Simulation
 In this subsection we can observe the benefit of a regional approach to shape control
-<!--
-To embed a YouTube video directly on the page, use an iframe:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
--->
 ### 2D Simulation
 <table>
   <tr>
@@ -54,7 +49,6 @@ To embed a YouTube video directly on the page, use an iframe:
   v1.defaultPlaybackRate = 3.0;
   v1.playbackRate = 3.0;
 </script>
-
 
 
 ## Real-World Experiments
