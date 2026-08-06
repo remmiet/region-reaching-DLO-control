@@ -51,6 +51,9 @@ The simulations below demonstrate how our region-reaching controller overcomes a
 </script>
 
 <style>
+  .wrapper {
+    max-width: 1200px;
+  }
   video {
     width: 100%;
     aspect-ratio: 16 / 9;
