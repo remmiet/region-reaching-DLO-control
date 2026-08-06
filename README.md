@@ -10,7 +10,7 @@ In this subsection we can observe the benefit of a regional approach to shape co
   <tr>
     <td width="50%" align="center">
       <video width="100%" controls>
-        <source src="videos/sim 2d our case 98 - edited.mp4" type="video/mp4">
+        <source src="videos/sim 2d ours case 98 - edited.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <p><b>Our Controller</b></p>
