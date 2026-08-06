@@ -28,7 +28,7 @@ In this subsection we can observe the benefit of a regional approach to shape co
 <table>
   <tr>
     <td width="50%" align="center">
-      <video id="vid1" width="100%" controls">
+      <video id="vid1" width="100%" controls>
         <source src="videos/sim 3d our - edited.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
