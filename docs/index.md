@@ -44,27 +44,24 @@ The simulations below demonstrate how our region-reaching controller overcomes a
   </tr>
 </table>
 
-%<script>
-%  const v1 = document.getElementById('vid1');
-%  v1.defaultPlaybackRate = 3.0;
-%  v1.playbackRate = 3.0;
-%</script>
+<script>
+  const v1 = document.getElementById('vid1');
+  v1.defaultPlaybackRate = 3.0;
+  v1.playbackRate = 3.0;
+</script>
 
-%<style>
-%  .wrapper {
-%    max-width: 1200px;
-%  }
-%  video {
-%    width: 100%;
-%    aspect-ratio: 16 / 9;
-%    object-fit: contain;
-%    background-color: black;
-%  }
-%  video::-webkit-media-controls-current-time-display,
-%  video::-webkit-media-controls-time-remaining-display {
-%    display: none;
-%  }
-%</style>
+<style>
+  video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    background-color: black;
+  }
+  video::-webkit-media-controls-current-time-display,
+  video::-webkit-media-controls-time-remaining-display {
+    display: none;
+  }
+</style>
 
 
 ## Real-World Experiments
