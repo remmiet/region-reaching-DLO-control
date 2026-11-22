@@ -70,9 +70,14 @@ The simulations below demonstrate how our region-reaching controller overcomes a
 
 
 ## Real-World Experiments
-An example of our controller in real-world experiments. More examples including applications-based experiments will be inlcuded in the future.
+An example of our controller in real-world experiments. 
 <video width="100%" controls>
   <source src="videos/real-world experiment 1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<video width="100%" controls>
+  <source src="videos/application_compressed.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
